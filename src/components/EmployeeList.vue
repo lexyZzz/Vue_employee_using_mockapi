@@ -11,7 +11,6 @@
       </tr>
     </thead>
 
-```
 <tbody>
   <tr v-for="emp in employees" :key="emp.id">
     <td>{{ emp.id }}</td>
@@ -30,7 +29,6 @@
     </td>
   </tr>
 </tbody>
-```
 
   </table>
 </template>
