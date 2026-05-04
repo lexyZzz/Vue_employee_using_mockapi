@@ -2,13 +2,10 @@
   <div>
     <h2 class="mb-3">Employee List</h2>
 
-```
 <EmployeeList
   :employees="employees"
   @delete="handleDelete"
 />
-```
-
   </div>
 </template>
 
