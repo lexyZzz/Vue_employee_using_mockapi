@@ -4,7 +4,6 @@
       {{ isEditMode ? 'Edit Employee' : 'Add Employee' }}
     </h2>
 
-```
 <EmployeeForm
   :initial-data="employeeData"
   :is-edit-mode="isEditMode"
@@ -12,7 +11,6 @@
   @submit="handleSubmit"
   @cancel="goHome"
 />
-```
 
   </div>
 </template>
